@@ -57,5 +57,10 @@ public class Main {
         System.out.println("==== Pessoas por Idade =====");
 
         agenda.listaPessoasPorIdade();
+
+
+
+        System.out.println("  \\  <   ");
+
     }
 }

@@ -1,6 +1,6 @@
 package Exercicio1;
 
-public class Pessoa {
+public class Pessoa{
     private String nome;
     private String endereco;
     private String telefone;
