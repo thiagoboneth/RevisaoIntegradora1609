@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class ManipulaArquivos extends Pessoa{
 
+
     ArrayList<Pessoa> arquivo = new ArrayList<>();
     ArrayList<String> consulta = new ArrayList<>();
 
@@ -14,6 +15,7 @@ public class ManipulaArquivos extends Pessoa{
 
         arquivo.add(pessoa);
     }
+
 
 
     public void escreveNoArquivo(Pessoa pessoa) throws IOException {
@@ -45,6 +47,4 @@ public class ManipulaArquivos extends Pessoa{
         Pessoa pessoa = new Pessoa(valores[0],valores[1]);
         return pessoa;
     }
-
-
 }

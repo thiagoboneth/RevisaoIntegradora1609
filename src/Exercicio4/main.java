@@ -7,7 +7,7 @@ public class main {
 
         ManipulaArquivos manipulaArquivos = new ManipulaArquivos();
 
-        Pessoa pessoa1 = new Pessoa("Thiago","Boneh");
+        Pessoa pessoa1 = new Pessoa("Thiago","Boneth");
         Pessoa pessoa2 = new Pessoa("Viviane","Lopes");
 
         manipulaArquivos.adicionaLista(pessoa1);

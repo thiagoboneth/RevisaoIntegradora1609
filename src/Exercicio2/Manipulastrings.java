@@ -1,6 +1,8 @@
 package Exercicio2;
 
 
+import java.util.Locale;
+
 public class Manipulastrings {
 
 
@@ -8,7 +10,7 @@ public class Manipulastrings {
     public String inverteString(String nome){
         StringBuilder sb = new StringBuilder(nome);
         sb.reverse();
-        return sb.toString();
+        return sb.toString().toUpperCase(Locale.ROOT);
 
     }
     public void verificaPalindromo(String nome) {
